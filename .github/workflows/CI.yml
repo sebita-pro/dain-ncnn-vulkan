@@ -27,7 +27,6 @@ jobs:
         mkdir build; cd build
         cmake -A x64 ../src
         cmake --build . --config Release -j 2
-
   ubuntu:
     runs-on: ubuntu-latest
     steps:
@@ -53,7 +52,6 @@ jobs:
         mkdir build && cd build
         cmake ../src
         cmake --build . -j 2
-
   macos:
     runs-on: macos-latest
     steps:
